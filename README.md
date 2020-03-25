@@ -7,5 +7,5 @@ To Host web service 2 files are required:
 Local Link:
 http://localhost:5001/
 Heroku Link:
-[ https://my-server-heroku.herokuapp.com/]
+https://my-server-heroku.herokuapp.com/
 
