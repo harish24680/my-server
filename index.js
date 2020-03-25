@@ -2,15 +2,15 @@ const http = require('http')  // require built-in Node.js http package
 
 // Use hosting values if available, otherwise default 
 const hostname = process.env.hostname || '0.0.0.0' // allow remote access
-const port = process.env.PORT || 3002
+const port = process.env.PORT || 5001
 
 // define our server
 const server = http.createServer((req, res) => {
   res.statusCode = 200
-  res.setHeader('Content-Type', 'text/plain')
-  res.write('Hello...\n')
-  // res.write('Hello...\n')
-  res.end('Hello World! This is text - we can respond with HTML, JSON, and more :)\n')
+  res.setHeader('Content-Type', 'text/html')
+  res.write('<html>')
+  res.write('<body><h1>Hello there! I am Harish.</h1></body>')
+  res.end('</html>')
 })
 
 // start listening

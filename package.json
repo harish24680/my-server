@@ -13,9 +13,13 @@
     },
     "keywords": [
       "JavaScript",
-      "Node.js",
+      "index.js",
       "web",
       "server"
     ],
-    "author": "Harish Thadka"
+    "author": "Harish Thadka",
+    "bugs": {
+      "url": "https://github.com/harish24680/my-server/issues"
+    },
+    "homepage": "https://github.com/harish24680/my-Server#readme"
   }
