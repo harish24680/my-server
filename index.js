@@ -7,7 +7,7 @@ const port = process.env.PORT || 5001
 // define our server
 const server = http.createServer((req, res) => {
   res.statusCode = 200
-  res.setHeader('Content-Type', 'text/plain')
+  res.setHeader('Content-Type', 'text/html')
   res.write('<html>')
   res.write('<body><h1>Hello there! I am Harish.</h1></body>')
   res.end('</html>')
